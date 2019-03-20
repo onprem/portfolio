@@ -1,0 +1,68 @@
+/* Hmaburger */
+
+.burgers {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  border: 0;
+  z-index: 5;
+  background: none;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+  border-bottom: 5px solid currentColor;
+  width: 50px;
+  transition: border-bottom 1s ease-in-out;
+  -webkit-transition: border-bottom 1s ease-in-out;
+}
+.burgers::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.burgers:before {
+  content: "";
+  display: block;
+  border-bottom: 5px solid currentColor;
+  width: 100%;
+  margin-bottom: 7px;
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burgers:after {
+  content: "";
+  display: block;
+  border-bottom: 5px solid currentColor;
+  width: 100%;
+  margin-bottom: 7px;
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burgers.open {
+  border-bottom: 5px solid transparent;
+  transition: border-bottom 0.8s ease-in-out;
+  -webkit-transition: border-bottom 0.8s ease-in-out;
+}
+.burgers.open:before {
+  transform: rotate(-405deg) translateY(2px) translateX(-4px);
+  -webkit-transform: rotate(-405deg) translateY(2px) translateX(-4px);
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burgers.open:after {
+  transform: rotate(405deg) translateY(-4px) translateX(-5px);
+  -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+
+.burgers {
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .burgers {
+    top: 20px;
+    right: 5px;
+    width: 40px;
+  }
+}
