@@ -1,0 +1,43 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 30px 80px;
+  letter-spacing: 0.1em;
+  font-size: 1.5em;
+}
+
+.left {
+  display: flex;
+  /* align-items: center; */
+  padding: 15px 0;
+  justify-content: space-between;
+  width: 30vw;
+}
+
+.ring {
+  fill: white;
+  width: 2em;
+  height: 2em;
+}
+
+.left > a {
+  text-decoration: none;
+  color: var(--primaryFG);
+  margin-left: 15px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: var(--secondaryFG);
+  font-size: 2em;
+}
+
+.last {
+  font-weight: 700;
+}
