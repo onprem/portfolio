@@ -1,0 +1,45 @@
+.footer {
+  position: absolute;
+  bottom: 30px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-sizing: border-box;
+  padding: 30px 80px;
+  letter-spacing: 0.1em;
+  font-size: 1.5em;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.location {
+  display: flex;
+  width: 100%;
+}
+
+.city {
+  margin-left: 15px;
+  color: var(--secondaryFG);
+  font-weight: 700;
+}
+
+.right {
+  display: flex;
+  /* width: 30vw; */
+  align-items: center;
+}
+
+.socialLink {
+  text-decoration: none;
+}
+
+.socialIcon {
+  color: var(--primaryFG);
+  height: 1.5em;
+  margin-left: 3em;
+}
