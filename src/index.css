@@ -9,11 +9,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* :root {
@@ -26,6 +31,9 @@ code {
 :root {
   --primaryFG: white;
   --secondaryFG: #fa0404;
+  --secondaryFG-light: #f76060;
   --primaryBG: #111111;
+
+  --topNavHeight: 15vh;
 }
 

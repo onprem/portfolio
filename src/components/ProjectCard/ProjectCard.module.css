@@ -1,0 +1,62 @@
+.card {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 35px 0;
+}
+
+.left {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 15px 30px;
+}
+
+.title {
+  margin: 0;
+  font-size: 2.2em;
+  /* font-weight: 500; */
+  color: var(--secondaryFG-light);
+}
+
+.description {
+  margin: 15px 0;
+  font-size: 1.2em;
+}
+
+.right {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primaryFG);
+}
+
+.image {
+  width: 90%;
+  border-radius: 15px;
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.right:hover .image {
+  opacity: 0.6;
+}
+
+.open {
+  position: absolute;
+  font-size: 3em;
+  font-weight: 700;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.right:hover .open {
+  opacity: 1;
+}
