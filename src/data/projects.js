@@ -1,6 +1,7 @@
 import aurora from '../assets/projects/aurora.jpg';
 import infotsav from '../assets/projects/infotsav.jpg';
 import dh from '../assets/projects/dh.jpg';
+import archInstall from '../assets/projects/arch-install.jpg';
 import prem from '../assets/projects/prem.jpg';
 
 export default [
@@ -24,6 +25,13 @@ export default [
     image: dh,
     url: 'https://kube.dreamholidaysonline.com/home',
     stacks: ['JavaScript', 'React', 'NodeJS', 'Webpack', 'Mongo'],
+  },
+  {
+    title: 'arch-install.sh',
+    description: 'A bash script to assist in installation of Arch linux.',
+    image: archInstall,
+    url: 'https://github.com/prmsrswt/arch-install.sh',
+    stacks: ['Shell'],
   },
   {
     title: 'prem.codes',

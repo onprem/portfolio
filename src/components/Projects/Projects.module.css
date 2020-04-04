@@ -10,3 +10,27 @@
   margin: 0;
   margin-bottom: 4vh;
 }
+
+.githubProjects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: var(--secondaryFG-light);
+  box-sizing: border-box;
+  padding: 4em 1em;
+}
+
+.githubHeading {
+  font-size: 3.5em;
+  margin-bottom: 4vh 0;
+}
+
+.githubCards {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}

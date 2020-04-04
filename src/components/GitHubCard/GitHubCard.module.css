@@ -1,0 +1,60 @@
+.card {
+  width: 350px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  background: var(--primaryFG);
+  color: var(--primaryBG);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 6px;
+  margin: 1.5em;
+}
+
+.url {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 2px var(--secondaryFG-light);
+  box-sizing: border-box;
+  padding: 5px 15px;
+  width: 100%;
+}
+
+.heading {
+  margin: 0;
+  color: var(--primaryBG);
+}
+
+.icon {
+  height: 2em;
+  margin-left: 1em;
+  /* display: none; */
+}
+
+.description {
+  margin: 5px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.links {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lnkSpan {
+  display: flex;
+  align-items: center;
+  color: var(--primaryBG);
+}
+
+.lnkIcon {
+  height: 1em;
+  margin-right: 0.2em;
+}
+
