@@ -6,10 +6,10 @@ import Projects from './components/Projects/Projects';
 import './App.css';
 
 function App() {
-  const [light] = useState('dark');
+  const [light, setLight] = useState(false);
   return (
-    <div className="App" data-theme={light}>
-      <Nav />
+    <div className="App" data-theme={light ? `light` : `dark`}>
+      <Nav setLight={setLight} />
       <Switch>
         <Route exact path="/">
           <Home />

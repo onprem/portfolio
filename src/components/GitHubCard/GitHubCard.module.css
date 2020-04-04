@@ -56,5 +56,6 @@
 .lnkIcon {
   height: 1em;
   margin-right: 0.2em;
+  fill: var(--primaryBG);
 }
 

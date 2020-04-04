@@ -32,6 +32,33 @@
 
 .right {
   display: flex;
+  align-items: center;
+}
+
+.toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  color: var(--primaryFG);
+  transition: all 0.2s ease-in;
+  height: 3em;
+  width: 3em;
+  margin-right: 3em;
+}
+
+.toggle:hover {
+  background: var(--primaryBG-light);
+}
+
+.themeIcon {
+  height: 2em;
+}
+
+.name {
+  display: flex;
   flex-direction: column;
   align-items: flex-end;
   color: var(--secondaryFG);

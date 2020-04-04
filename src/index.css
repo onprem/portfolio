@@ -33,6 +33,7 @@ a {
   --secondaryFG: #fa0404;
   --secondaryFG-light: #f76060;
   --primaryBG: #111111;
+  --primaryBG-light: #383838;
 
   --topNavHeight: 15vh;
 }

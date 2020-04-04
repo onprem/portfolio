@@ -16,5 +16,6 @@
 [data-theme="light"] {
   --primaryFG: #111111;
   --primaryBG: #f2f2f2;
+  --primaryBG-light: #cccccc;
 }
 
