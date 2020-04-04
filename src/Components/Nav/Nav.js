@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 import styles from './Nav.module.css';
 
-const Nav = ({ setLight }) => {
+const Nav = ({ toggleTheme }) => {
   return (
     <nav className={styles.nav}>
       <div className={styles.left}>
@@ -15,7 +15,7 @@ const Nav = ({ setLight }) => {
         <Link to="/contact">CONTACT</Link>
       </div>
       <div className={styles.right}>
-        <button type="button" className={styles.toggle} onClick={() => setLight(l => !l)}>
+        <button type="button" className={styles.toggle} onClick={toggleTheme}>
           <ThemeIcon className={styles.themeIcon} />
         </button>
         <div className={styles.name}>
