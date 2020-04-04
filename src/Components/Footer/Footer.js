@@ -1,7 +1,7 @@
 import React from "react";
-import { ReactComponent as GitHubIcon } from "../../assets/github.svg";
-import { ReactComponent as TwitterIcon } from "../../assets/twitter.svg";
-import { ReactComponent as LinkedinIcon } from "../../assets/linkedin.svg";
+import { ReactComponent as GitHubIcon } from "Assets/github.svg";
+import { ReactComponent as TwitterIcon } from "Assets/twitter.svg";
+import { ReactComponent as LinkedinIcon } from "Assets/linkedin.svg";
 import styles from "./Footer.module.css";
 
 const Footer = () => {

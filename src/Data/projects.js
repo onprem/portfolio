@@ -1,8 +1,8 @@
-import aurora from '../assets/projects/aurora.jpg';
-import infotsav from '../assets/projects/infotsav.jpg';
-import dh from '../assets/projects/dh.jpg';
-import archInstall from '../assets/projects/arch-install.jpg';
-import prem from '../assets/projects/prem.jpg';
+import aurora from 'Assets/projects/aurora.jpg';
+import infotsav from 'Assets/projects/infotsav.jpg';
+import dh from 'Assets/projects/dh.jpg';
+import archInstall from 'Assets/projects/arch-install.jpg';
+import prem from 'Assets/projects/prem.jpg';
 
 export default [
   {

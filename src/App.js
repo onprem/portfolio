@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import {Switch, Route} from 'react-router-dom';
-import Nav from './components/Nav/Nav';
-import Home from './components/Home/Home';
-import Projects from './components/Projects/Projects';
+import Nav from 'Components/Nav/Nav';
+import Home from 'Components/Home/Home';
+import Projects from 'Components/Projects/Projects';
 import './App.css';
 
 function App() {

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import ProjectCard from "../ProjectCard/ProjectCard";
-import GitHubCard from '../GitHubCard/GitHubCard';
+import ProjectCard from "Components/ProjectCard/ProjectCard";
+import GitHubCard from 'Components/GitHubCard/GitHubCard';
 import styles from "./Projects.module.css";
 
-import projects from "../../data/projects";
+import projects from "Data/projects";
 
 const GitHubProjects = ({ username }) => {
   const [repos, setRepos] = useState([]);

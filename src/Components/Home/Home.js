@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from "../Footer/Footer";
-import myImage from "../../assets/webb.png";
+import Footer from "Components/Footer/Footer";
+import myImage from "Assets/webb.png";
 import styles from "./Home.module.css";
 
 const Home = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
-import {ReactComponent as RingIcon} from '../../assets/ring.svg';
-import {ReactComponent as ThemeIcon} from '../../assets/theme.svg';
+import {ReactComponent as RingIcon} from 'Assets/ring.svg';
+import {ReactComponent as ThemeIcon} from 'Assets/theme.svg';
 import { Link } from 'react-router-dom';
 
 import styles from './Nav.module.css';

@@ -1,8 +1,8 @@
 import React from "react";
-import StackIcons from "../ProjectCard/StackIcons";
+import StackIcons from "Components/ProjectCard/StackIcons";
 
-import { ReactComponent as StarIcon } from "../../assets/star.svg";
-import { ReactComponent as ForkIcon } from "../../assets/fork.svg";
+import { ReactComponent as StarIcon } from "Assets/star.svg";
+import { ReactComponent as ForkIcon } from "Assets/fork.svg";
 
 import styles from "./GitHubCard.module.css";
 
