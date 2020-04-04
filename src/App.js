@@ -30,7 +30,6 @@ function App() {
           <Projects />
         </Route>
       </Switch>
-      
     </div>
   );
 }

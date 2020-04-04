@@ -12,7 +12,7 @@ const Nav = ({ toggleTheme }) => {
         <RingIcon className={styles.ring} />
         <Link to="/">HOME</Link>
         <Link to="/projects">PROJECTS</Link>
-        <Link to="/contact">CONTACT</Link>
+        <a href="https://blog.prem.codes">BLOG</a>
       </div>
       <div className={styles.right}>
         <button type="button" className={styles.toggle} onClick={toggleTheme}>
