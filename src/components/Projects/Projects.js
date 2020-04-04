@@ -14,6 +14,7 @@ const Projects = () => {
           description={p.description}
           image={p.image}
           url={p.url}
+          stacks={p.stacks}
           key={p.url}
         />
       ))}

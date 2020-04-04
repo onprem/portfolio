@@ -28,6 +28,11 @@
   font-size: 1.2em;
 }
 
+.icon {
+  height: 1.8em;
+  margin: 0 1em;
+}
+
 .right {
   width: 30%;
   display: flex;
