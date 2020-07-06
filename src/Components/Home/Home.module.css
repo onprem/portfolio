@@ -17,6 +17,8 @@
     height: calc(100vh - 50px);
   }
   .me {
+    position: absolute;
+    bottom: 0;
     width: auto;
     height: 500px;
     max-height: 50vh;
