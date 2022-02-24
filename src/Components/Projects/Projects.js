@@ -42,7 +42,7 @@ const Projects = () => {
     </section>
     <section className={styles.githubProjects}>
       <h1 className={styles.githubHeading}>GitHub Projects</h1>
-      <GitHubProjects username="prmsrswt" />
+      <GitHubProjects username="onprem" />
     </section>
     </>
   );
