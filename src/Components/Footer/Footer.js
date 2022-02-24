@@ -11,12 +11,12 @@ const Footer = () => {
         <h2 className={styles.title}>Web Developer</h2>
         <div className={styles.location}>
           <span>From</span>
-          <span className={styles.city}>BIKANER</span>
+          <span className={styles.city}>BENGALURU</span>
         </div>
       </div>
       <div className={styles.right}>
         <a
-          href="https://github.com/prmsrswt"
+          href="https://github.com/onprem"
           className={styles.socialLink}
           target="_blank"
           rel="noreferrer noopener"
@@ -24,7 +24,7 @@ const Footer = () => {
           <GitHubIcon className={styles.socialIcon} />
         </a>
         <a
-          href="https://twitter.com/prmsrswt"
+          href="https://twitter.com/onprem_"
           className={styles.socialLink}
           target="_blank"
           rel="noreferrer noopener"
@@ -32,7 +32,7 @@ const Footer = () => {
           <TwitterIcon className={styles.socialIcon} />
         </a>
         <a
-          href="https://www.linkedin.com/in/prmsrswt"
+          href="https://www.linkedin.com/in/onprem"
           className={styles.socialLink}
           target="_blank"
           rel="noreferrer noopener"
